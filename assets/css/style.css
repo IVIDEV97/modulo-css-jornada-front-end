@@ -6,6 +6,7 @@
 @import "./header.css";
 @import "./main.css";
 @import "./footer.css";
+@import "./responsive.css";
 
 /* reset css */
 *{
@@ -24,7 +25,8 @@
 body {
   background-image: url(../images/bolha-background.png);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position-x: -150px;
+  background-position-y: -200px;
 
 }
 
