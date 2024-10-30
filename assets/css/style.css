@@ -4,6 +4,7 @@
 /* components */
 @import "./buttons.css";
 @import "./header.css";
+@import "./main.css";
 
 /* reset css */
 *{
@@ -12,6 +13,7 @@
   border: 0;
   font: 100%;
   font: inherit;
+  font-weight: 500;
   font-family: "Source Sans 3", serif;
   vertical-align: baseline;
   text-decoration: none;
