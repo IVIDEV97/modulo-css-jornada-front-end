@@ -36,6 +36,7 @@
   header nav {
     margin: 30px 0
   }
+
   footer .row {
     justify-content: center;
     flex-direction: row;
@@ -47,6 +48,7 @@
   .container {
     width: 500px;
   }
+
   .sobre-web-design figcaption img {
     width: 550px;
   }
@@ -56,7 +58,34 @@
   .container {
     width: 375px;
   }
+
   .sobre-web-design figcaption img {
     width: 400px;
+  }
+}
+
+@media(max-width: 320px) {
+  .container {
+    width: 80%;
+  }
+
+  .sobre-web-design figcaption img {
+    width: 100%;
+  }
+
+  header nav {
+    background-color: white;
+    width: auto;
+    padding: 15px;
+    box-shadow: 0px 10px 10px rgba(1, 152, 163, 1);
+    border-radius: 10%;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    padding: 5px;
   }
 }
