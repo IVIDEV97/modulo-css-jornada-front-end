@@ -1,0 +1,46 @@
+.sobre-web-design {
+  align-items: center;
+  justify-content: space-between;
+}
+//article
+.sobre-web-design article {
+  width: 250px;
+//h1
+  h1 {
+    font-size: $font-h1;
+    line-height: 90%;
+    font-weight: bold;
+    color: $color-secundaria;
+  }
+//end h1
+
+//h2 e p
+  h2,
+  p {
+    color: $color-primaria;
+  }
+//end h2 e p
+
+//h2
+  h2 {
+    font-size: $font-h2;
+    letter-spacing: 0px;
+    line-height: 150%;
+  }
+//end h2
+
+//p
+  p {
+    margin: 10px 0 40px 0;
+  }
+//end p
+
+//figcaption
+  figcaption img {
+    width: 700px;
+    margin-left: 0px;
+  }
+//end figcaption
+
+}
+//end aritcle
